@@ -1,0 +1,40 @@
+.contenedor{
+    height: 30vh;
+    width: 40vh;
+    margin: auto;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor > h2{
+    margin-top: 25px;
+}
+.contenedorUser{
+    margin-top: 6vh;
+}
+
+.nameUser{
+    width: 15vw;
+    background-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid var(--background-color);
+}
+
+::placeholder{
+    color: var(--background-color);
+}
+
+.buttonLogin{
+    height: 3vh;
+    width: 10vw;
+    margin-top: 6vh;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    background-color: var(--background-color);
+}

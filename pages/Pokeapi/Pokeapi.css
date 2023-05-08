@@ -1,0 +1,118 @@
+.galleryPokemon{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.figurePoke{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagePokemon{
+    height: 100px;
+    width: 100px;
+    margin: 40px 0;
+}
+
+#pokemon{
+    margin-top: 15vh;
+}
+
+.grass{
+    background-color: #8CD750; 
+    border: 5px solid #6ABD45;
+}
+
+.dark {
+    background-color: #5a536687;
+    border: 5px solid #5a5366;
+}
+
+.fire {
+    background-color: #FF9C54; 
+    border: 5px solid #FF6B35;   
+}
+
+.water {
+    background-color: #4F96E6;     
+    border: 5px solid #2178E3;
+}
+
+.bug {
+    background-color: #9DC130;
+    border: 5px solid #8CB82B;
+}
+
+.normal {
+    background-color: #A4ACAF;     
+    border: 5px solid #747D83;
+} 
+
+.poison {
+    background-color: #B062A5;
+    border: 5px solid #8F3F9E;
+} 
+
+.electric {
+    background-color: #FFCE4B;
+    border: 5px solid #FFA600;
+}
+
+.ground {
+    background-color: #DBB54D;
+    border: 5px solid #B9972F;
+}
+
+.fairy {
+    background-color: #FF7EE5;
+    border: 5px solid #D6248F;
+}
+
+.dragon {
+    background-color: #0a6dc482;
+    border: 5px solid #0a6dc4;
+}
+
+.fighting {
+    background-color: #ce406884;
+    border: 5px solid #ce4068;
+}
+
+.flying {
+    background-color: #6d6de77c;
+    border: 5px solid #51b4cd;
+}
+
+.ghost {
+    background-color: #5269ac7e;
+    border: 5px solid #5269ac;
+}
+
+.ice {
+    background-color: #74cec17e;
+    border: 5px solid #74cec1;
+}
+
+.psychic {
+    background-color: #f971767e;
+    border: 5px solid #f97176;
+}
+
+.rock {
+    background-color: #c7b78b78;
+    border: 5px solid #c7b78b;
+}
+
+.steel {
+    background-color: #5a8ea17e;
+    border: 5px solid #5a8ea1;
+}

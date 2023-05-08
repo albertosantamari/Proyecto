@@ -1,0 +1,16 @@
+footer {
+    height: 10vh;
+    width: 100vw;
+    margin-top: auto;
+    background-image: url('https://res.cloudinary.com/dy5ayp3le/image/upload/v1683307834/website-header-banner-design-abstract-260nw-1922131178_ac7ap6.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: var(--secundary-color);
+    background: none;
+}

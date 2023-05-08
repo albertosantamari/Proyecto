@@ -1,0 +1,18 @@
+.figurenDashboard > img{
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#containerDashboard > ul{
+    padding: 37vh 0 23vh 0 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,37 @@
+header{
+    height: 15vh;
+    width: 100vw;
+    background-image: url('https://res.cloudinary.com/dy5ayp3le/image/upload/v1683307834/website-header-banner-design-abstract-260nw-1922131178_ac7ap6.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+h1{
+    background-color: transparent;
+    margin-left: 2vw;
+}
+
+nav{
+    margin-right: 6vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+nav img{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    margin-right: 2vw;
+}
+
+#buttonThem{
+    height: 50px;
+    width: 50px;
+}
