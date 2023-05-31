@@ -1,18 +1,100 @@
-.figurenDashboard > img{
-    height: 190px;
-    width: 190px;
-    object-fit: cover;
-    border-radius: 15px;
+body {
+  background-image: url("https://res.cloudinary.com/dy5ayp3le/image/upload/v1683995848/a186a8aff83506c70b0b307e3fb062c8_zvhg2g.png");
+  background-size: 90%;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
 }
 
-#containerDashboard > ul{
-    padding: 37vh 0 23vh 0 ;
+#containerDashboard {
+  height: 75vh;
+  width: 100%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#containerDashboard > h2 {
+  margin-top: 25vh;
+  text-align: center;
+  font-size: calc(0.9em + 0.9vw);
+}
+
+.figurenDashboard > img {
+  height: 22vh;
+  width: 190px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#imgPokemon {
+  width: 13vw;
+}
+
+#containerDashboard > ul {
+  width: 100vw;
+  padding: 14vh 0 23vh 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 1281px) {
+  body {
+    background-size: 180vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-size: 180vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-size: 180vh;
+  }
+  #containerDashboard > ul {
+    transform: scale(0.9);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-size: 180vh;
+  }
+  #containerDashboard > ul {
+    width: 106vw;
+    padding: 0 0 23vh 0;
+    transform: scale(0.8);
+  }
+  #containerDashboard {
+    height: 60vh;
+    margin-top: 25vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-size: 180vh;
+  }
+  #containerDashboard > ul {
+    width: 108vw;
+    padding: 3vh 0 26vh 0;
+    transform: scale(0.7);
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-li{
-    list-style: none;
+    justify-content: space-between;
+  }
+  #containerDashboard {
+    height: 56vh;
+    margin-top: 25vh;
+  }
 }

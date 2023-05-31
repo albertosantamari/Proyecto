@@ -1,5 +1,49 @@
+#buttonsType{
+    width: 80vw;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#buttonsType > button{
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#containerButtons{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#inputBuscador{
+    height: 30px;
+    width: 350px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--secundary-color);
+    border-radius: 15px;
+}
+
+#inputBuscador::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: var(--secundary-color);
+    text-align: center;
+}
+
 .galleryPokemon{
-    margin-top: 10vh;
+    width: 100vw;
+    margin-top: 6vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -8,9 +52,9 @@
 
 .figurePoke{
     height: 300px;
-    width: 250px;
+    width: 200px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,11 +64,15 @@
 .imagePokemon{
     height: 100px;
     width: 100px;
-    margin: 40px 0;
+    margin: 25px 0;
 }
 
 #pokemon{
     margin-top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .grass{
@@ -33,8 +81,8 @@
 }
 
 .dark {
-    background-color: #5a536687;
-    border: 5px solid #5a5366;
+    background-color: #5a5366;
+    border: 5px solid #41325b;
 }
 
 .fire {
@@ -78,41 +126,65 @@
 }
 
 .dragon {
-    background-color: #0a6dc482;
+    background-color: #365e81;
     border: 5px solid #0a6dc4;
 }
 
 .fighting {
-    background-color: #ce406884;
-    border: 5px solid #ce4068;
+    background-color: #d1305e;
+    border: 5px solid #8a2c47;
 }
 
 .flying {
-    background-color: #6d6de77c;
-    border: 5px solid #51b4cd;
+    background-color: #51b4cd;
+    border: 5px solid #2f6c7b;
 }
 
 .ghost {
-    background-color: #5269ac7e;
+    background-color: #703d8c;
     border: 5px solid #5269ac;
 }
 
 .ice {
-    background-color: #74cec17e;
-    border: 5px solid #74cec1;
+    background-color: #5de5e5;
+    border: 5px solid #4f8f85;
 }
 
 .psychic {
-    background-color: #f971767e;
+    background-color: #834446;
     border: 5px solid #f97176;
 }
 
 .rock {
-    background-color: #c7b78b78;
+    background-color: #796c4a;
     border: 5px solid #c7b78b;
 }
 
 .steel {
-    background-color: #5a8ea17e;
+    background-color: #406978;
     border: 5px solid #5a8ea1;
+}
+
+@media (min-width: 1281px) {
+   
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
 }

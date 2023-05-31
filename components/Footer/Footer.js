@@ -1,9 +1,9 @@
 import "./Footer.css"
 
 const template = () => `
-    <h2>Copyright - 2023 - Alberto Santamaria </h2>
+    <h3>Copyright - 2023 - Alberto Santamaria </h3>
 `
 
-export const printTemplate = () =>{
+export const Footer = () =>{
     document.querySelector("footer").innerHTML = template()
 }

@@ -1,0 +1,296 @@
+
+.interface{
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 15px;
+}
+
+.interface > h1{
+    font-size: 3rem;
+}
+
+.score{
+    height: 30px;
+    padding: 0 48px;
+    line-height: 1;
+    border-radius: 15px;
+    color: var(--terciary-color);
+    border: 2px solid var(--background-color);
+    font-size: 1.5rem;
+}
+
+.game{
+    height: 50vh;
+    width: 55vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+#start{
+    height: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: var(--secundary-color);
+    background-color: var(--primary-color);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.mole{
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    background: url("https://res.cloudinary.com/dy5ayp3le/image/upload/v1684171424/pngw1_npde2l_giaudb.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: absolute;
+    transition: all .5s;
+    left: 16px;
+}
+
+.hole{
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hole:after{
+    height: 90px;
+    width: 90%;
+    display: block;
+    background: url("https://res.cloudinary.com/dy5ayp3le/image/upload/v1683721037/pngwing.com_11_gmcnbr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    z-index: 2;
+    bottom: -13px;
+    left: 10px;
+}
+
+.hole.up .mole{
+    top: 0;
+}
+
+#modalPuntos{
+    display: none;
+    position: absolute;
+    margin: 35vh 33vw;
+    z-index: 3;
+}
+
+#containerModal{
+    height: 40vh;
+    width: 35vw;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    background-color: whitesmoke;
+    border: 4px solid #10233c;
+    border-radius: 20px;
+}
+
+#modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: #10233c;
+    font-size: 1.5rem;
+}
+
+#modal > h3{
+    font-size: calc(.9em + .9vw);
+}
+
+.gifPikachu{
+    height: 25vh;
+    width: 15vw;
+}
+
+#close{
+    height: 40px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: #10233c;
+    border-radius: 10px;
+    border: none;
+    background-color: #a5d9ed;
+    cursor: pointer;
+}
+
+#close:hover{
+    transform: scale(1.2);
+    background-color: #5bb2d4;
+}
+
+@media (min-width: 1281px) {
+    .game {
+        margin-top: 5vh;
+        height: 44vh;
+        width: 54vw;
+    }
+
+    .hole:after {
+        height: 74px;
+    }
+
+    #modalPuntos{
+        margin: 25vh 23vw;
+    }
+    
+    #containerModal{
+        height: 55vh;
+        width: 55vw;
+    }
+
+    .gifPikachu{
+        height: 55%;
+        width: 35%;
+    }
+    #close{
+        height: 35px;
+        width: 110px;
+        font-size: calc(.5em + .5vw);
+    
+  }
+}
+  
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .game {
+        margin-top: 2.5vh;
+        height: 42vh;
+        width: 54vw;
+    }
+
+    .hole:after {
+        height: 69px;
+    }
+    
+    #modalPuntos{
+        margin: 30vh 23vw;
+    }
+    
+    #containerModal{
+        height: 50vh;
+        width: 55vw;
+    }
+
+    .gifPikachu{
+        height: 55%;
+        width: 35%;
+    }
+    #close{
+        height: 35px;
+        width: 110px;
+        font-size: calc(.5em + .5vw);
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .game {
+        margin-top: 3vh;
+        height: 42vh;
+        width: 79vw;
+    }
+
+    .hole:after {
+        height: 73px;
+    }
+    
+    #modalPuntos{
+        margin: 30vh 15vw;
+    }
+    
+    #containerModal{
+        height: 50vh;
+        width: 70vw;
+    }
+
+    .gifPikachu{
+        height: 55%;
+        width: 35%;
+    }
+    #close{
+        height: 35px;
+        width: 100px;
+        font-size: calc(.5em + .5vw);
+    }
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .game {
+        margin-top: 13.5vh;
+        height: 31vh;
+        width: 80vw;
+    }
+
+    .hole:after {
+        height: 57px;
+    }
+
+    #modalPuntos{
+        margin: 35vh 5vw;
+    }
+    
+    #containerModal{
+        height: 40vh;
+        width: 90vw;
+    }
+
+    .gifPikachu{
+        height: 55%;
+        width: 35%;
+    }
+    #close{
+        height: 30px;
+        width: 95px;
+        font-size: calc(.5em + .5vw);
+    }
+  }
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .game {
+        margin-top: 10vh;
+        height: 21.5vh;
+        width: 83vw;
+    }
+
+    .hole:after {
+        height: 46.5px;
+    }
+    
+    #modalPuntos{
+        margin: 35vh 5vw;
+    }
+    
+    #containerModal{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    #modal{
+        font-size: 1.1rem;
+    }
+
+    .gifPikachu{
+        height: 55%;
+        width: 35%;
+    }
+    #close{
+        height: 25px;
+        width: 90px;
+        font-size: calc(.5em + .5vw);
+    }
+  }

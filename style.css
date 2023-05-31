@@ -1,8 +1,9 @@
 :root {
-    --background-color: #a5d9ed;
-    --primary-color: #10233c;
-    --secundary-color: #e9480f;
-    font-family: 'Dancing Script', cursive;
+    --background-color: #0F224A;
+    --primary-color: #0C519C;
+    --secundary-color: #FEC802;
+    --terciary-color: #d40419;
+    font-family: 'Roboto', sans-serif;
 }
 
 *{
@@ -14,9 +15,5 @@
 main{
     display: flex;
     flex-direction: column;
-    min-height: 90vh;
-}
-
-h1{
-    color: var(--secundary-color);
+    min-height: 93vh;
 }

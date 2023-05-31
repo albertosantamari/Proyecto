@@ -1,11 +1,13 @@
 import "./Quiz.css";
 
-const template = () => ``
+const template = () =>{
+
+}
 
 const addListeners = () => {
 
 }
 
 export const printTemplate = () => {
-    template()
+    document.querySelector("main").innerHTML = template()
 }

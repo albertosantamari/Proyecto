@@ -1,6 +1,7 @@
 import { getPokemon } from "../services/pokemon.service"
+import { typePokemon } from "./typesPokemon"
 
-export const dataPokemon = async () => {
+export const getPokemonData = async () => {
     const data = []
     for(let i = 1; i < 151; i++){
         data.push(await getPokemon(i))
@@ -18,6 +19,10 @@ const dataMap = (data) => {
         height: pokemon.height,
         weight: pokemon.weight,
     }))
-    return filterData
-    
+
+    const type = typePokemon(filterData)
+    return {
+        type: type,
+        dataPokemon: filterData,
+    }
 }

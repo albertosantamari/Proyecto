@@ -1,0 +1,76 @@
+#containerTres{
+    height: 75vh;
+    width: 100vw;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cabecera{
+    width: 100vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecera > h2{
+    font-size: 3rem;
+}
+
+.tablero {
+    height: 55vh;
+    width: 26.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("https://res.cloudinary.com/dy5ayp3le/image/upload/v1684146067/tablero_lftv4j.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid var(--background-color);
+}
+
+.casilla {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.marcaX {
+    background-image: url("https://res.cloudinary.com/dy5ayp3le/image/upload/v1684147285/pika_t2avla.png");
+    background-size: 100% 100%;
+}
+
+.marcaO {
+    background-image: url("https://res.cloudinary.com/dy5ayp3le/image/upload/v1684147286/bulba_dgoeu2.png");
+    background-size: 100% 100%;
+}
+
+@media (min-width: 1281px) {
+   
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+}

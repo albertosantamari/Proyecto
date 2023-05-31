@@ -1,16 +1,16 @@
 footer {
-    height: 10vh;
+    height: 7vh;
     width: 100vw;
-    margin-top: auto;
-    background-image: url('https://res.cloudinary.com/dy5ayp3le/image/upload/v1683307834/website-header-banner-design-abstract-260nw-1922131178_ac7ap6.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--background-color);
+    border-top: 4px solid var(--secundary-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h2{
+footer > h3{
     color: var(--secundary-color);
-    background: none;
+    font-size: calc(.7em + .7vw);
+    
+    font-family: 'Roboto', sans-serif;
 }
